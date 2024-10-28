@@ -39,10 +39,13 @@ if password=="Secret123":
 else:
         print("Access is denied")
 
-vss=int(input())
-
-if vss>80 and vss>90:
-        print("Excellent Student")
+student_score=int(input("Enter student score: "))
+attendance=int(input("enter student attendance:gi "))
+if student_score > 90:
+        if attendance > 80:
+            print("Excellent student")
+        else:
+            print("Good score, but attendance needs improvement")
 else:
-        print("Good score,but attendance needs improvement")
+        print("Score does not meet the threshold for evaluation")
         
