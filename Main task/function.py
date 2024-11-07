@@ -21,7 +21,7 @@ area_1=calc_tri_area(10,15)
 area_2=calc_tri_area(20,40)  
 print(area_1,area_2)
 
-#create a function that checks whether a number is odd or even.(store the called functions in a variable)
+#create a function that checks whether a number is odd or even.(store the called functions in a variable,print the called function)
 def odd_or_even(num):
     if num % 2==0:
         display=f"{num} is even"
